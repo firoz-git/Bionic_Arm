@@ -1,4 +1,4 @@
-#define EMGPin0 A0
+#define EMGPin0 A0 //preprocessing
 #define EMGPin1 A1
 int EMGVal0;
 int EMGVal1;
