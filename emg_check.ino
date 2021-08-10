@@ -1,4 +1,4 @@
-#define EMGPin0 A0 //preprocessing
+#define EMGPin0 A0 
 #define EMGPin1 A1
 int EMGVal0;
 int EMGVal1;
@@ -16,9 +16,7 @@ EMGVal1 = analogRead(EMGPin1);
 Serial.print(EMGVal0);
 Serial.print(",");
 Serial.print(EMGVal1);
-delay(500);
-
-//print new line
+delay(500);//help you to observe values 
 Serial.println();
 
 }
